@@ -1,0 +1,75 @@
+/* style.css */
+html,body{
+    height:100%; 
+}
+
+/*  fixed navbar  */
+#nav-main
+{
+    position: fixed;
+    top:0px;
+    width:100%;
+    z-index: 1;
+}
+img{
+    max-width: 100%;
+}
+#cover
+{
+    background: #222 url(img/kfc.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover img{
+    float: left;
+    position: relative;
+    width:100px;
+    top:0px;
+}
+#cover-caption
+{
+    width: 100%;
+}
+h3
+{
+   font-size: 24px;
+   font-style: italic;
+   font-family: 'Lato';
+   color: black;
+}
+h2,h4{
+    font-size: 30px;
+   
+   font-family: 'Concert One';
+   color: black;
+}
+p{
+   font-size: 20px;
+   font-family:  'Lora';
+   color: black;
+}
+
+/*  footer  */
+footer {
+
+   background: black;
+   
+   height: 50px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    
+  }
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}

@@ -14,25 +14,30 @@
 
   <!--social media css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
   <!--Navigation Bar-->
   <nav class="navbar navbar-toggleable-md navbar-dark bg-inverse navbar-full" id="nav-main">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">MENU</a>
-
+      <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">MENU
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Veg</a>
+            <a class="dropdown-item" href="#">Non Veg</a>
+          </div>
+        </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="navbar-brand" href="#">DEAL</a>
+          <a class="navbar-brand" href="#">Deal</a>
         </li>
         <li class="nav-item">
-          <a class="navbar-brand " href="#">ORDER NOW</a>
-        </li>
+            <a class="navbar-brand" href="#">Order Now</a>
+          </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -104,6 +109,18 @@
       </a>
     </div>
   </section>
+     
+      <div class="jumbotron jumbotron-fluid">  
+          <div class="row">  
+          <div class="col-sm-5">          
+              <img src="img/kfc5.jpg" class="rounded-circle" alt="Cinque Terre" > 
+          </div>
+          <div class="col-sm-5" style="text-align: center">    
+        <p style="font-size: 30px;color:black; ">KFC was founded by Colonel Harland Sanders, an entrepreneur who began selling fried chicken from his roadside restaurant in Corbin, Kentucky during the Great Depression. Sanders identified the potential of the restaurant franchising concept, and the first "Kentucky Fried Chicken" franchise opened in Utah in 1952. People love coming to kfc because of the unique taste kfc offers its customers to have. It is a unique recipe. Best place to go for all set of people.</p>
+      </div>
+    </div>
+    </div>
+
 
   <!--Card(three columns)-->
   <br>
@@ -111,7 +128,7 @@
   <section id="What-We-Do">
     <div class="section-content">
       <div class="container">
-        <h2>What We Do?</h2>
+        <h2>What We Do</h2>
         <p class="lead"></p>
         <div class="row">
           <div class="col-sm-12">
@@ -182,12 +199,88 @@
 <br>
 <br>
 <br>
+
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" href="#contact" role="tab" data-toggle="tab">contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#address" role="tab" data-toggle="tab">address</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="contact">
+
+
+    <div class="container">
+      <!-- Button to Open the Modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Click me!!
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Contact</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>Name: Durga</p>
+              <p> Contact:xxxxxxxxxx </p>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="address"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5865563159196!2d77.60870721482156!3d12.93427339088044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144d8672919b%3A0x87bfc24b891000b1!2sKFC!5e0!3m2!1sen!2sin!4v1544707620652" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+</div>
+
+
+
 <!--Footer-->
 <footer>
   <a href="#" class="fa fa-facebook"></a>
   <a href="#" class="fa fa-twitter"></a>
   <a href="#" class="fa fa-google"></a>
   <a href="#" class="fa fa-linkedin"></a>
+
 </footer>
 
 </html>
